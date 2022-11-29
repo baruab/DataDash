@@ -1,0 +1,36 @@
+library(shiny)
+library(shinyjs)
+library(gt)
+library(shinyWidgets)
+library(DT)
+library(ggplot2)
+library(plotly)
+library(dplyr)
+library(shinydashboard)
+library(readxl)
+library(corrplot)
+library(lubridate)
+library(stringr)
+library(tidyverse)
+library(tidyr)
+library(readr)
+library(stargazer)
+library(shinycssloaders)
+library(tidytext)
+library(httr)
+library(rvest)
+
+library(anytime)
+addFormats("%d-%m-%y")
+
+
+library(glue)
+library(wordcloud)
+
+library(tm)
+library(slam)
+
+source('dataInput.R', local=TRUE)
+source('columnsInput.R', local=TRUE)
+#source('columnTypesInput.R', local=TRUE)
+
